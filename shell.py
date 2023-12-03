@@ -1,4 +1,22 @@
 import re
 tokens=(
-    ""
+    "int",
+    "float",
+    "string",
+    "bool",
+    "output",
+    "input",
+    "get",
+    "post",
+    "g_p",
+    "#include",
+    "for",
+    "while",
+    "until",
+    "function",
+    "class",
+    "++",
+    "--",
+    "+=",
+    "-="
 )
