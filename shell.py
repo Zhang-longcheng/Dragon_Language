@@ -1,4 +1,3 @@
-import re
 tokens=(
     "int",
     "float",
@@ -17,6 +16,38 @@ tokens=(
     "class",
     "++",
     "--",
+    "**",
     "+=",
-    "-="
+    "-=",
+    "*=",
+    "/="
+    "+",
+    "-",
+    "*",
+    "/",
+    "//",
+    "<",
+    ">",
+    ":",
+    "::",
+    "{",
+    "(",
+    ")",
+    "}",
+    "return",
+    "break",
+)
+random=(
+    "randint",
+    "randfloat",
+)
+root=(
+    "root",
+    "button",
+    "img",
+    "pack",
+    "place",
+    "MenuBar",
+    "menu",
+    "mainloop"
 )
