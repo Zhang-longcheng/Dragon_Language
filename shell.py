@@ -51,3 +51,11 @@ root=(
     "menu",
     "mainloop"
 )
+def complier(code:str):
+    code=code.splitlines()
+    i=0
+    while i<len(code):
+        j=0
+        while j<len(code[i]):
+            for k in tokens:
+                pass
