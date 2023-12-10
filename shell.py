@@ -59,4 +59,3 @@ def complier(code:str):
             for k in tokens:
                 if code[i][j]==k:
                     tokens.append(k)
-                elif 
