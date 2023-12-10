@@ -36,12 +36,8 @@ tokens=(
     "}",
     "return",
     "break",
-)
-random=(
     "randint",
     "randfloat",
-)
-root=(
     "root",
     "button",
     "img",
@@ -49,13 +45,18 @@ root=(
     "place",
     "MenuBar",
     "menu",
-    "mainloop"
+    "mainloop",
+    "kbhit",
+    "getch"
 )
 def complier(code:str):
+    tokens=[]
     code=code.splitlines()
     i=0
     while i<len(code):
         j=0
         while j<len(code[i]):
             for k in tokens:
-                pass
+                if code[i][j]==k:
+                    tokens.append(k)
+                elif 
